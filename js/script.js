@@ -77,7 +77,7 @@
 
             const savedKeluar = localStorage.getItem('pasundan_keluar');
             kasKeluarList = savedKeluar ? JSON.parse(savedKeluar) : [
-                { id: 1, tanggal: "2026-11-10", deskripsi: "Pembelian Buku Kas & ATK", nominal: 25000 }
+                { id: 1, tanggal: " ", deskripsi: " ", nominal: 0 }
             ];
 
             const savedHistori = localStorage.getItem('pasundan_histori');
