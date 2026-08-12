@@ -84,7 +84,7 @@
             historiList = savedHistori ? JSON.parse(savedHistori) : [
                 { id: 1, inputAt: "2026-11-08 09:00", tanggal: "2026-11-08", tipe: "MASUK", subjek: "Adzkiya Livia Marsha", nominal: 50000, resi: "INV-001" },
                 { id: 2, inputAt: "2026-11-08 10:15", tanggal: "2026-11-08", tipe: "MASUK", subjek: "Marisa Gracelyn", nominal: 50000, resi: "INV-002" },
-                { id: 3, inputAt: "2026-11-10 14:00", tanggal: "2026-11-10", tipe: "KELUAR", subjek: "Pembelian Buku Kas & ATK", nominal: 25000, resi: "-" },
+                { id: 3, inputAt: "-", tanggal: "-", tipe: "-", subjek: " ", nominal: 0, resi: "-" },
                 { id: 4, inputAt: "2026-12-08 08:30", tanggal: "2026-12-08", tipe: "MASUK", subjek: "Afif Ahlan Firdaus", nominal: 10000, resi: "INV-003" },
                 { id: 5, inputAt: "2026-12-08 11:00", tanggal: "2026-12-08", tipe: "MASUK", subjek: "Irsyad Hakiki Alfarizki", nominal: 20000, resi: "INV-004" }
             ];
