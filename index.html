@@ -202,15 +202,7 @@
             </div>
         </div>
 
-		<!-- Tombol Buka/Tutup Scanner Kamera -->
-<button type="button" id="btn-toggle-camera" onclick="toggleCameraScanner()">
-    📷 Scan QR NIS via Kamera
-</button>
-
-<!-- Wadah Tampilan Kamera (Awalnya tersembunyi) -->
-<div id="qr-reader-wrapper" style="display: none; margin: 15px 0; text-align: center;">
-    <div id="qr-reader" style="width: 100%; max-width: 350px; margin: 0 auto; border-radius: 8px; overflow: hidden;"></div>
-</div>
+		
 
         <!-- ADMIN CONTROLS SECTION (Visible only to Admin) -->
         <div id="admin-action-section" class="hidden bg-emerald-900 text-white p-6 rounded-2xl shadow-md space-y-4">
@@ -230,7 +222,15 @@
                     <h4 class="text-xs font-bold uppercase text-brand-300 tracking-wider flex items-center gap-1.5">
                         <i class="fa-solid fa-plus-circle"></i> Input Setoran Iuran Siswa
                     </h4>
-                    
+                    		<!-- Tombol Buka/Tutup Scanner Kamera -->
+<button type="button" id="btn-toggle-camera" onclick="toggleCameraScanner()">
+    📷 Scan QR NIS via Kamera
+</button>
+
+<!-- Wadah Tampilan Kamera (Awalnya tersembunyi) -->
+<div id="qr-reader-wrapper" style="display: none; margin: 15px 0; text-align: center;">
+    <div id="qr-reader" style="width: 100%; max-width: 350px; margin: 0 auto; border-radius: 8px; overflow: hidden;"></div>
+</div>
                     <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
                         <div>
                             <label class="block text-xs font-medium text-emerald-200 mb-1">Pilih Siswa *</label>
