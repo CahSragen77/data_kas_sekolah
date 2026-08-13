@@ -23,7 +23,7 @@
     <!-- jsPDF & AutoTable (PDF Export) -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.28/jspdf.plugin.autotable.min.js"></script>
-
+	<script src="https://unpkg.com/html5-qrcode"></script>
     <script>
         tailwind.config = {
             theme: {
@@ -65,6 +65,8 @@
             </div>
 
             <div class="flex items-center space-x-2 sm:space-x-3">
+				<!--wadah scanner-->
+				<div id="reader" style="width: 300px;"></div>
                 <!-- Status Akses Badge -->
                 <span id="role-badge" class="px-3 py-1 text-xs font-semibold rounded-full bg-slate-100 text-slate-600 border border-slate-300 flex items-center gap-1.5">
                     <i class="fa-solid fa-eye text-slate-400"></i> Mode Orang Tua (Read-Only)
