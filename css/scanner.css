@@ -1,0 +1,20 @@
+#btn-toggle-camera {
+    background-color: #2563eb;
+    color: #ffffff;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+#btn-toggle-camera:hover {
+    background-color: #1d4ed8;
+}
+
+#qr-reader {
+    border: 2px solid #2563eb !important;
+}
