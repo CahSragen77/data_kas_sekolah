@@ -177,15 +177,7 @@
             </div>
         </div>
 
-		<!-- Tombol Buka/Tutup Scanner Kamera -->
-<button type="button" id="btn-toggle-camera" onclick="toggleCameraScanner()">
-    📷 Scan QR NIS via Kamera
-</button>
-
-<!-- Wadah Tampilan Kamera (Awalnya tersembunyi) -->
-<div id="qr-reader-wrapper" style="display: none; margin: 15px 0; text-align: center;">
-    <div id="qr-reader" style="width: 100%; max-width: 350px; margin: 0 auto; border-radius: 8px; overflow: hidden;"></div>
-</div>
+		
 
         <!-- CHARTS SECTION -->
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
@@ -209,6 +201,16 @@
                 </div>
             </div>
         </div>
+
+		<!-- Tombol Buka/Tutup Scanner Kamera -->
+<button type="button" id="btn-toggle-camera" onclick="toggleCameraScanner()">
+    📷 Scan QR NIS via Kamera
+</button>
+
+<!-- Wadah Tampilan Kamera (Awalnya tersembunyi) -->
+<div id="qr-reader-wrapper" style="display: none; margin: 15px 0; text-align: center;">
+    <div id="qr-reader" style="width: 100%; max-width: 350px; margin: 0 auto; border-radius: 8px; overflow: hidden;"></div>
+</div>
 
         <!-- ADMIN CONTROLS SECTION (Visible only to Admin) -->
         <div id="admin-action-section" class="hidden bg-emerald-900 text-white p-6 rounded-2xl shadow-md space-y-4">
