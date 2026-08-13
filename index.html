@@ -23,6 +23,7 @@
     <!-- jsPDF & AutoTable (PDF Export) -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.28/jspdf.plugin.autotable.min.js"></script>
+	<!--librarynHTML5 QR Code Scanner -->
 	<script src="https://unpkg.com/html5-qrcode"></script>
     <script>
         tailwind.config = {
@@ -464,6 +465,16 @@
             </div>
         </div>
     </div>
+<!-- Tombol Buka/Tutup Scanner Kamera -->
+<button type="button" id="btn-toggle-camera" onclick="toggleCameraScanner()">
+    📷 Scan QR NIS via Kamera
+</button>
+
+<!-- Wadah Tampilan Kamera (Awalnya tersembunyi) -->
+<div id="qr-reader-wrapper" style="display: none; margin: 15px 0; text-align: center;">
+    <div id="qr-reader" style="width: 100%; max-width: 350px; margin: 0 auto; border-radius: 8px; overflow: hidden;"></div>
+</div>
+	
 
     <!-- MODAL 3: EDIT SISWA -->
     <div id="modal-edit-siswa" class="fixed inset-0 bg-slate-900/60 backdrop-blur-sm z-50 flex items-center justify-center hidden p-4">
